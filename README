@@ -1,0 +1,27 @@
+==What can this extension do?==
+
+Creates a javascript bookmarklet link.
+
+==Usage==
+
+ <bookmarklet title="This is a bookmarklet" href="javascript:...."/>
+
+Then generated html piece below:
+
+ <a href="javascript:...">This is a bookmarklet</a>
+
+
+==Installation==
+
+* copy the code below in to a file named '''extensions/Bookmarklet.php'''
+* update '''[[Manual:LocalSettings.php|LocalSettings.php]]''' as shown below
+
+
+===Changes to LocalSettings.php===
+
+Add the following to your wiki's [[Manual:LocalSettings.php|LocalSettings.php]]:
+<source lang="php">require_once("$IP/extensions/bookmarklet.php");</source>
+
+
+===Code===
+http://github.com/nakao/mw-bookmarklet
